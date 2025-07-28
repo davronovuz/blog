@@ -473,18 +473,18 @@ function updateRAMDisplay(value) {
     // Update performance info based on RAM value
     const ramConfigs = {
         4: {
-            title: 'Asosiy foydalanuvchi',
-            examples: ['Internet brauzeri', 'Oddiy ofis dasturlari', 'Email'],
+            title: 'Oddiy foydalanuvchi',
+            examples: ['Internet ko\'rish', 'Oddiy ofis dasturlari', 'Elektron pochta'],
             stars: 2
         },
         8: {
             title: 'O\'rtacha foydalanuvchi',
-            examples: ['Internet brauzeri', 'Ofis dasturlari', 'Video tomosha'],
+            examples: ['Internet ko\'rish', 'Ofis dasturlari', 'Video tomosha qilish'],
             stars: 3
         },
         12: {
             title: 'Faol foydalanuvchi',
-            examples: ['Ko\'p dasturlar', 'Yengil o\'yinlar', 'Foto tahrirlash'],
+            examples: ['Ko\'p dasturlar', 'Yengil o\'yinlar', 'Rasm tahrirlash'],
             stars: 4
         },
         16: {
@@ -498,18 +498,18 @@ function updateRAMDisplay(value) {
             stars: 5
         },
         24: {
-            title: 'Professional workstation',
-            examples: ['Server vazifalar', 'AI/ML', 'Katta ma\'lumotlar'],
+            title: 'Professional ish stantsiyasi',
+            examples: ['Server vazifalar', 'Sun\'iy intellekt', 'Katta ma\'lumotlar'],
             stars: 5
         },
         28: {
-            title: 'Yuqori samaradorlik',
-            examples: ['Virtualizatsiya', 'Professional rendering', 'Server'],
+            title: 'Yuqori unumdorlik',
+            examples: ['Virtualizatsiya', 'Professional render', 'Server'],
             stars: 5
         },
         32: {
-            title: 'Maksimal samaradorlik',
-            examples: ['Enterprise server', 'Professional rendering', 'AI training'],
+            title: 'Maksimal unumdorlik',
+            examples: ['Korxona serveri', 'Professional render', 'AI o\'qitish'],
             stars: 5
         }
     };
