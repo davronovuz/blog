@@ -22,6 +22,9 @@ function initializePresentation() {
     // Set initial slide
     showSlide(0);
     
+    // Initialize creative animations
+    initializeCreativeAnimations();
+    
     // Initialize power bars for Intel comparison
     setTimeout(() => {
         initializePowerBars();
@@ -35,6 +38,101 @@ function initializePresentation() {
     
     // Initialize loading demo
     initializeLoadingDemo();
+    
+    // Initialize visual enhancements
+    initializeVisualEnhancements();
+}
+
+// Initialize creative animations
+function initializeCreativeAnimations() {
+    // Animate title slide elements
+    const titleWords = document.querySelectorAll('.title-word');
+    titleWords.forEach((word, index) => {
+        word.style.animationDelay = `${(index + 1) * 0.3}s`;
+    });
+    
+    // Initialize device showcases
+    const deviceItems = document.querySelectorAll('.computer-item');
+    deviceItems.forEach((item, index) => {
+        setTimeout(() => {
+            item.style.opacity = '1';
+            item.style.transform = 'translateY(0) scale(1)';
+        }, (index + 1) * 500);
+    });
+    
+    // Initialize laptop visual animations
+    initializeLaptopAnimations();
+    
+    // Initialize desktop visual animations
+    initializeDesktopAnimations();
+}
+
+// Initialize laptop animations
+function initializeLaptopAnimations() {
+    const laptopScreens = document.querySelectorAll('.laptop-screen, .laptop-screen-3d');
+    laptopScreens.forEach(screen => {
+        const glow = screen.querySelector('.screen-glow');
+        if (glow) {
+            setInterval(() => {
+                glow.style.opacity = Math.random() * 0.3 + 0.7;
+            }, 2000);
+        }
+    });
+    
+    // Animate desktop icons
+    const desktopIcons = document.querySelectorAll('.desktop-icons .icon');
+    desktopIcons.forEach((icon, index) => {
+        setTimeout(() => {
+            icon.style.opacity = '1';
+            icon.style.transform = 'scale(1)';
+        }, index * 200);
+    });
+}
+
+// Initialize desktop animations
+function initializeDesktopAnimations() {
+    const powerButtons = document.querySelectorAll('.power-button, .power-led');
+    powerButtons.forEach(button => {
+        setInterval(() => {
+            button.style.boxShadow = '0 0 10px rgba(0, 255, 0, 0.8)';
+            setTimeout(() => {
+                button.style.boxShadow = '0 0 5px rgba(0, 255, 0, 0.3)';
+            }, 500);
+        }, 3000);
+    });
+    
+    // Animate RGB lights
+    const rgbLights = document.querySelectorAll('.rgb-light');
+    rgbLights.forEach((light, index) => {
+        setTimeout(() => {
+            light.style.opacity = '1';
+            light.style.animation = 'rgbPulse 2s ease-in-out infinite';
+        }, index * 300);
+    });
+}
+
+// Initialize visual enhancements
+function initializeVisualEnhancements() {
+    // Add parallax effect to background elements
+    document.addEventListener('mousemove', (e) => {
+        const mouseX = e.clientX / window.innerWidth;
+        const mouseY = e.clientY / window.innerHeight;
+        
+        const parallaxElements = document.querySelectorAll('.computer-showcase, .brain-cpu-illustration');
+        parallaxElements.forEach(element => {
+            const speed = 0.02;
+            const x = (mouseX - 0.5) * speed * 100;
+            const y = (mouseY - 0.5) * speed * 100;
+            element.style.transform = `translate(${x}px, ${y}px)`;
+        });
+    });
+    
+    // Add floating animation to various elements
+    const floatingElements = document.querySelectorAll('.laptop-showcase, .desktop-showcase, .thinking-person');
+    floatingElements.forEach((element, index) => {
+        element.style.animation = `float 4s ease-in-out infinite`;
+        element.style.animationDelay = `${index * 0.5}s`;
+    });
 }
 
 // Setup event listeners
