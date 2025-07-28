@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompyuter qanday tanlanadi?</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="nav-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+                <span class="dot" data-slide="4"></span>
+                <span class="dot" data-slide="5"></span>
+                <span class="dot" data-slide="6"></span>
+                <span class="dot" data-slide="7"></span>
+                <span class="dot" data-slide="8"></span>
+                <span class="dot" data-slide="9"></span>
+                <span class="dot" data-slide="10"></span>
+                <span class="dot" data-slide="11"></span>
+                <span class="dot" data-slide="12"></span>
+                <span class="dot" data-slide="13"></span>
+                <span class="dot" data-slide="14"></span>
+                <span class="dot" data-slide="15"></span>
+            </div>
+            <div class="nav-controls">
+                <button class="nav-btn prev-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <button class="nav-btn next-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </nav>
+
+        <!-- Slides Container -->
+        <div class="slides-container" id="slidesContainer">
+            
+            <!-- Slide 0: Title -->
+            <div class="slide active" id="slide-0">
+                <div class="slide-content title-slide">
+                    <h1 class="main-title">
+                        <span class="title-word">Kompyuter</span>
+                        <span class="title-word">qanday</span>
+                        <span class="title-word">tanlanadi?</span>
+                    </h1>
+                    <div class="title-subtitle">
+                        <p>0 dan boshlab to'liq qo'llanma</p>
+                    </div>
+                    <div class="computer-animation">
+                        <div class="laptop-icon">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <div class="desktop-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 1: Noutbuk yoki Desktop? -->
+            <div class="slide" id="slide-1">
+                <div class="slide-content">
+                    <h2>Noutbuk yoki Desktop?</h2>
+                    <div class="choice-container">
+                        <div class="choice-card laptop-choice" data-choice="laptop">
+                            <div class="choice-icon">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <h3>Noutbuk</h3>
+                            <p>Portativ va qulay</p>
+                            <div class="choice-features">
+                                <span class="feature">📱 Portativ</span>
+                                <span class="feature">🔋 Batareya</span>
+                                <span class="feature">📶 Wi-Fi</span>
+                            </div>
+                        </div>
+                        <div class="vs-divider">VS</div>
+                        <div class="choice-card desktop-choice" data-choice="desktop">
+                            <div class="choice-icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <h3>Desktop</h3>
+                            <p>Kuchli va arzon</p>
+                            <div class="choice-features">
+                                <span class="feature">💪 Kuchli</span>
+                                <span class="feature">💰 Arzon</span>
+                                <span class="feature">🔧 Yangilanadi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Noutbukning afzalliklari va kamchiliklari -->
+            <div class="slide" id="slide-2">
+                <div class="slide-content">
+                    <h2>Noutbukning afzalliklari va kamchiliklari</h2>
+                    <div class="pros-cons-container">
+                        <div class="pros-column">
+                            <h3><i class="fas fa-thumbs-up"></i> Afzalliklari</h3>
+                            <div class="pros-list">
+                                <div class="pro-item">
+                                    <i class="fas fa-suitcase-rolling"></i>
+                                    <span>Portativ - har yerga olib yurish mumkin</span>
+                                </div>
+                                <div class="pro-item">
+                                    <i class="fas fa-battery-three-quarters"></i>
+                                    <span>Batareya - elektr quvvatisiz ishlaydi</span>
+                                </div>
+                                <div class="pro-item">
+                                    <i class="fas fa-wifi"></i>
+                                    <span>Wi-Fi va Bluetooth o'rnatilgan</span>
+                                </div>
+                                <div class="pro-item">
+                                    <i class="fas fa-video"></i>
+                                    <span>Kamera va mikrofon mavjud</span>
+                                </div>
+                                <div class="pro-item">
+                                    <i class="fas fa-compress-alt"></i>
+                                    <span>Kam joy egallaydi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cons-column">
+                            <h3><i class="fas fa-thumbs-down"></i> Kamchiliklari</h3>
+                            <div class="cons-list">
+                                <div class="con-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>Qimmatroq (bir xil kuchga nisbatan)</span>
+                                </div>
+                                <div class="con-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span>Yangilash qiyin yoki imkonsiz</span>
+                                </div>
+                                <div class="con-item">
+                                    <i class="fas fa-thermometer-half"></i>
+                                    <span>Tez qiziydi va shovqin chiqaradi</span>
+                                </div>
+                                <div class="con-item">
+                                    <i class="fas fa-keyboard"></i>
+                                    <span>Kichik klaviatura va ekran</span>
+                                </div>
+                                <div class="con-item">
+                                    <i class="fas fa-wrench"></i>
+                                    <span>Ta'mirlash murakkab va qimmat</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Desktopning afzalliklari va kamchiliklari -->
+            <div class="slide" id="slide-3">
+                <div class="slide-content">
+                    <h2>Desktopning afzalliklari va kamchiliklari</h2>
+                    <div class="infographic-container">
+                        <div class="desktop-pros">
+                            <h3><i class="fas fa-star"></i> Afzalliklari</h3>
+                            <div class="infographic-grid">
+                                <div class="info-card performance">
+                                    <div class="card-icon"><i class="fas fa-rocket"></i></div>
+                                    <h4>Yuqori samaradorlik</h4>
+                                    <p>Kuchli protsessor va video karta</p>
+                                </div>
+                                <div class="info-card price">
+                                    <div class="card-icon"><i class="fas fa-money-bill-wave"></i></div>
+                                    <h4>Arzon narx</h4>
+                                    <p>Bir xil kuchga kamroq pul</p>
+                                </div>
+                                <div class="info-card upgrade">
+                                    <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                                    <h4>Yangilanadi</h4>
+                                    <p>Qismlarni almashtirish oson</p>
+                                </div>
+                                <div class="info-card cooling">
+                                    <div class="card-icon"><i class="fas fa-snowflake"></i></div>
+                                    <h4>Yaxshi sovutish</h4>
+                                    <p>Katta korpus, kam shovqin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desktop-cons">
+                            <h3><i class="fas fa-exclamation-triangle"></i> Kamchiliklari</h3>
+                            <div class="cons-infographic">
+                                <div class="con-visual">
+                                    <i class="fas fa-home"></i>
+                                    <span>Faqat uyda ishlatish mumkin</span>
+                                </div>
+                                <div class="con-visual">
+                                    <i class="fas fa-plug"></i>
+                                    <span>Doim elektr quvvati kerak</span>
+                                </div>
+                                <div class="con-visual">
+                                    <i class="fas fa-expand-arrows-alt"></i>
+                                    <span>Ko'p joy egallaydi</span>
+                                </div>
+                                <div class="con-visual">
+                                    <i class="fas fa-puzzle-piece"></i>
+                                    <span>Qo'shimcha jihozlar kerak</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Qaysi birini tanlash kerak? -->
+            <div class="slide" id="slide-4">
+                <div class="slide-content">
+                    <h2>Qaysi birini tanlash kerak?</h2>
+                    <div class="recommendation-container">
+                        <div class="recommendation-card recommended">
+                            <div class="recommended-badge">
+                                <i class="fas fa-crown"></i>
+                                TAVSIYA ETILADI
+                            </div>
+                            <div class="device-visual">
+                                <i class="fas fa-laptop"></i>
+                            </div>
+                            <h3>Noutbuk</h3>
+                            <div class="recommendation-reasons">
+                                <div class="reason">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Talabalar uchun ideal</span>
+                                </div>
+                                <div class="reason">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span>Ish uchun qulay</span>
+                                </div>
+                                <div class="reason">
+                                    <i class="fas fa-plane"></i>
+                                    <span>Sayohat paytida foydali</span>
+                                </div>
+                                <div class="reason">
+                                    <i class="fas fa-coffee"></i>
+                                    <span>Har qanday joyda ishlash</span>
+                                </div>
+                            </div>
+                            <div class="recommendation-note">
+                                <p><strong>Eslatma:</strong> Agar siz gamer bo'lsangiz yoki professional grafik ishlar bilan shug'ullansangiz, desktop yaxshiroq tanlov bo'ladi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 5: Protsessor nima? -->
+            <div class="slide" id="slide-5">
+                <div class="slide-content">
+                    <h2>Protsessor nima?</h2>
+                    <div class="processor-explanation">
+                        <div class="processor-visual">
+                            <div class="cpu-diagram">
+                                <div class="cpu-chip">
+                                    <div class="cpu-core core-1"></div>
+                                    <div class="cpu-core core-2"></div>
+                                    <div class="cpu-core core-3"></div>
+                                    <div class="cpu-core core-4"></div>
+                                </div>
+                                <div class="cpu-label">CPU</div>
+                            </div>
+                            <div class="data-flow">
+                                <div class="data-arrow">
+                                    <span>Ma'lumot kiradi</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="processing-animation">
+                                    <div class="processing-bar"></div>
+                                    <span>Qayta ishlash</span>
+                                </div>
+                                <div class="data-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                    <span>Natija chiqadi</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="processor-info">
+                            <h3>Protsessor - kompyuterning "miyasi"</h3>
+                            <div class="info-points">
+                                <div class="info-point">
+                                    <i class="fas fa-brain"></i>
+                                    <span>Barcha hisob-kitoblarni amalga oshiradi</span>
+                                </div>
+                                <div class="info-point">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                    <span>Kompyuter tezligini belgilaydi</span>
+                                </div>
+                                <div class="info-point">
+                                    <i class="fas fa-microchip"></i>
+                                    <span>Millionlab tranzistorlardan iborat</span>
+                                </div>
+                                <div class="info-point">
+                                    <i class="fas fa-layer-group"></i>
+                                    <span>Ko'p yadroli bo'lishi mumkin</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 6: Protsessor ishlab chiqaruvchilari -->
+            <div class="slide" id="slide-6">
+                <div class="slide-content">
+                    <h2>Protsessor ishlab chiqaruvchilari</h2>
+                    <div class="manufacturers-container">
+                        <div class="manufacturer-card intel">
+                            <div class="manufacturer-logo">
+                                <div class="intel-logo">Intel</div>
+                            </div>
+                            <h3>Intel</h3>
+                            <div class="manufacturer-info">
+                                <p class="market-share">Bozor ulushi: ~70%</p>
+                                <div class="features">
+                                    <span class="feature">Barqaror ishlash</span>
+                                    <span class="feature">Yuqori samaradorlik</span>
+                                    <span class="feature">Keng qo'llab-quvvatlash</span>
+                                </div>
+                                <div class="popular-models">
+                                    <strong>Mashhur modellari:</strong>
+                                    <span>Core i3, i5, i7, i9</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="manufacturer-card amd">
+                            <div class="manufacturer-logo">
+                                <div class="amd-logo">AMD</div>
+                            </div>
+                            <h3>AMD</h3>
+                            <div class="manufacturer-info">
+                                <p class="market-share">Bozor ulushi: ~25%</p>
+                                <div class="features">
+                                    <span class="feature">Arzon narx</span>
+                                    <span class="feature">Ko'p yadroli</span>
+                                    <span class="feature">Yaxshi qiymat/narx</span>
+                                </div>
+                                <div class="popular-models">
+                                    <strong>Mashhur modellari:</strong>
+                                    <span>Ryzen 3, 5, 7, 9</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="manufacturer-card apple">
+                            <div class="manufacturer-logo">
+                                <div class="apple-logo">
+                                    <i class="fab fa-apple"></i>
+                                </div>
+                            </div>
+                            <h3>Apple</h3>
+                            <div class="manufacturer-info">
+                                <p class="market-share">Bozor ulushi: ~5%</p>
+                                <div class="features">
+                                    <span class="feature">Energiya tejamkor</span>
+                                    <span class="feature">MacBook uchun</span>
+                                    <span class="feature">AI optimizatsiyasi</span>
+                                </div>
+                                <div class="popular-models">
+                                    <strong>Mashhur modellari:</strong>
+                                    <span>M1, M2, M3 chiplar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 7: Intel protsessorlari haqida -->
+            <div class="slide" id="slide-7">
+                <div class="slide-content">
+                    <h2>Intel protsessorlari haqida</h2>
+                    <div class="intel-comparison">
+                        <div class="intel-tier core-i3" data-tier="i3">
+                            <div class="tier-header">
+                                <h3>Core i3</h3>
+                                <div class="tier-badge basic">ASOSIY</div>
+                            </div>
+                            <div class="power-bar">
+                                <div class="power-fill" data-power="30"></div>
+                            </div>
+                            <div class="tier-specs">
+                                <div class="spec">2-4 yadro</div>
+                                <div class="spec">Oddiy vazifalar</div>
+                                <div class="spec">Internet, ofis</div>
+                            </div>
+                            <div class="price-range">$100-200</div>
+                        </div>
+
+                        <div class="intel-tier core-i5" data-tier="i5">
+                            <div class="tier-header">
+                                <h3>Core i5</h3>
+                                <div class="tier-badge recommended">TAVSIYA</div>
+                            </div>
+                            <div class="power-bar">
+                                <div class="power-fill" data-power="60"></div>
+                            </div>
+                            <div class="tier-specs">
+                                <div class="spec">4-6 yadro</div>
+                                <div class="spec">O'rtacha vazifalar</div>
+                                <div class="spec">Gaming, dizayn</div>
+                            </div>
+                            <div class="price-range">$200-400</div>
+                        </div>
+
+                        <div class="intel-tier core-i7" data-tier="i7">
+                            <div class="tier-header">
+                                <h3>Core i7</h3>
+                                <div class="tier-badge performance">KUCHLI</div>
+                            </div>
+                            <div class="power-bar">
+                                <div class="power-fill" data-power="85"></div>
+                            </div>
+                            <div class="tier-specs">
+                                <div class="spec">6-8 yadro</div>
+                                <div class="spec">Og'ir vazifalar</div>
+                                <div class="spec">Professional ish</div>
+                            </div>
+                            <div class="price-range">$400-600</div>
+                        </div>
+
+                        <div class="intel-tier core-i9" data-tier="i9">
+                            <div class="tier-header">
+                                <h3>Core i9</h3>
+                                <div class="tier-badge extreme">MAKSIMAL</div>
+                            </div>
+                            <div class="power-bar">
+                                <div class="power-fill" data-power="100"></div>
+                            </div>
+                            <div class="tier-specs">
+                                <div class="spec">8-16 yadro</div>
+                                <div class="spec">Eng og'ir vazifalar</div>
+                                <div class="spec">Server, AI</div>
+                            </div>
+                            <div class="price-range">$600+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 8: Avlod (Generation) tushunchasi -->
+            <div class="slide" id="slide-8">
+                <div class="slide-content">
+                    <h2>Avlod (Generation) tushunchasi</h2>
+                    <div class="generation-timeline">
+                        <div class="timeline-header">
+                            <h3>Intel Core protsessorlari avlodlari</h3>
+                            <p>Har yili yangi avlod chiqadi va yaxshilanadi</p>
+                        </div>
+                        <div class="timeline">
+                            <div class="timeline-item" data-gen="8">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>8-avlod (2017)</h4>
+                                    <div class="gen-features">
+                                        <span>14nm texnologiya</span>
+                                        <span>4 yadrogacha</span>
+                                    </div>
+                                    <div class="gen-status old">Eski</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-gen="10">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>10-avlod (2019)</h4>
+                                    <div class="gen-features">
+                                        <span>14nm+</span>
+                                        <span>Wi-Fi 6</span>
+                                    </div>
+                                    <div class="gen-status acceptable">Qabul qilinarli</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-gen="11">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>11-avlod (2020)</h4>
+                                    <div class="gen-features">
+                                        <span>10nm</span>
+                                        <span>Iris Xe grafika</span>
+                                    </div>
+                                    <div class="gen-status good">Yaxshi</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-gen="12">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>12-avlod (2021)</h4>
+                                    <div class="gen-features">
+                                        <span>Intel 7 (10nm+)</span>
+                                        <span>P-Core + E-Core</span>
+                                    </div>
+                                    <div class="gen-status excellent">A'lo</div>
+                                </div>
+                            </div>
+                            <div class="timeline-item" data-gen="13">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>13-avlod (2022)</h4>
+                                    <div class="gen-features">
+                                        <span>Intel 7+</span>
+                                        <span>24 yadrogacha</span>
+                                    </div>
+                                    <div class="gen-status recommended">TAVSIYA</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="generation-tip">
+                            <i class="fas fa-lightbulb"></i>
+                            <strong>Maslahat:</strong> Eng kamida 10-avlod yoki undan yangi protsessor tanlang
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 9: Chastota (GHz) nima va nega muhim? -->
+            <div class="slide" id="slide-9">
+                <div class="slide-content">
+                    <h2>Chastota (GHz) nima va nega muhim?</h2>
+                    <div class="frequency-explanation">
+                        <div class="frequency-visual">
+                            <div class="frequency-meter">
+                                <div class="meter-display">
+                                    <span class="frequency-value" id="frequencyValue">2.4</span>
+                                    <span class="frequency-unit">GHz</span>
+                                </div>
+                                <div class="frequency-slider">
+                                    <input type="range" id="frequencySlider" min="1.0" max="5.0" step="0.1" value="2.4">
+                                    <div class="slider-labels">
+                                        <span>1.0 GHz</span>
+                                        <span>3.0 GHz</span>
+                                        <span>5.0 GHz</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="performance-indicator">
+                                <div class="performance-bar">
+                                    <div class="performance-fill" id="performanceFill"></div>
+                                </div>
+                                <div class="performance-labels">
+                                    <span>Sekin</span>
+                                    <span>O'rtacha</span>
+                                    <span>Tez</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frequency-info">
+                            <h3>Chastota nima?</h3>
+                            <div class="info-explanation">
+                                <div class="explanation-item">
+                                    <i class="fas fa-clock"></i>
+                                    <div>
+                                        <strong>Ta'rif:</strong>
+                                        <p>Protsessor 1 soniyada nechta operatsiya bajarishi</p>
+                                    </div>
+                                </div>
+                                <div class="explanation-item">
+                                    <i class="fas fa-calculator"></i>
+                                    <div>
+                                        <strong>Misol:</strong>
+                                        <p>2.4 GHz = 2.4 milliard operatsiya/soniya</p>
+                                    </div>
+                                </div>
+                                <div class="explanation-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <div>
+                                        <strong>Qoida:</strong>
+                                        <p>Yuqori chastota = tezroq ishlash</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="frequency-ranges">
+                                <div class="range-item low">
+                                    <span class="range-value">1.0-2.0 GHz</span>
+                                    <span class="range-desc">Asosiy vazifalar</span>
+                                </div>
+                                <div class="range-item medium">
+                                    <span class="range-value">2.0-3.5 GHz</span>
+                                    <span class="range-desc">O'rtacha vazifalar</span>
+                                </div>
+                                <div class="range-item high">
+                                    <span class="range-value">3.5+ GHz</span>
+                                    <span class="range-desc">Og'ir vazifalar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 10: RAM nima va qancha kerak? -->
+            <div class="slide" id="slide-10">
+                <div class="slide-content">
+                    <h2>RAM nima va qancha kerak?</h2>
+                    <div class="ram-explanation">
+                        <div class="ram-visual">
+                            <div class="ram-analogy">
+                                <h3>RAM - ish stolining o'lchami</h3>
+                                <div class="desk-comparison">
+                                    <div class="desk small-desk">
+                                        <div class="desk-surface">
+                                            <div class="desk-item">📄</div>
+                                        </div>
+                                        <span>4GB - kichik stol</span>
+                                    </div>
+                                    <div class="desk medium-desk">
+                                        <div class="desk-surface">
+                                            <div class="desk-item">📄</div>
+                                            <div class="desk-item">📊</div>
+                                            <div class="desk-item">🖥️</div>
+                                        </div>
+                                        <span>8GB - o'rtacha stol</span>
+                                    </div>
+                                    <div class="desk large-desk">
+                                        <div class="desk-surface">
+                                            <div class="desk-item">📄</div>
+                                            <div class="desk-item">📊</div>
+                                            <div class="desk-item">🖥️</div>
+                                            <div class="desk-item">🎮</div>
+                                            <div class="desk-item">🎨</div>
+                                        </div>
+                                        <span>16GB+ - katta stol</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ram-calculator">
+                            <h3>RAM kalkulyatori</h3>
+                            <div class="ram-slider-container">
+                                <input type="range" id="ramSlider" min="4" max="32" step="4" value="8">
+                                <div class="ram-display">
+                                    <span id="ramValue">8</span> GB RAM
+                                </div>
+                            </div>
+                            <div class="ram-performance" id="ramPerformance">
+                                <div class="performance-desc">
+                                    <h4 id="performanceTitle">O'rtacha foydalanuvchi</h4>
+                                    <div class="usage-examples" id="usageExamples">
+                                        <span>Internet brauzeri</span>
+                                        <span>Ofis dasturlari</span>
+                                        <span>Video tomosha</span>
+                                    </div>
+                                </div>
+                                <div class="performance-rating" id="performanceRating">
+                                    <div class="rating-stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 11: Doimiy xotira: HDD vs SSD -->
+            <div class="slide" id="slide-11">
+                <div class="slide-content">
+                    <h2>Doimiy xotira: HDD vs SSD</h2>
+                    <div class="storage-comparison">
+                        <div class="storage-card hdd-card">
+                            <div class="storage-visual">
+                                <div class="hdd-animation">
+                                    <div class="hdd-disk"></div>
+                                    <div class="hdd-arm"></div>
+                                </div>
+                            </div>
+                            <h3>HDD (Hard Disk Drive)</h3>
+                            <div class="storage-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                    <span>Tezlik: 5400-7200 RPM</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>Narx: Arzon ($50-100)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-database"></i>
+                                    <span>Hajm: 500GB-4TB</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Umr: 3-5 yil</span>
+                                </div>
+                            </div>
+                            <div class="storage-pros-cons">
+                                <div class="pros">
+                                    <strong>✅ Afzalliklari:</strong>
+                                    <ul>
+                                        <li>Arzon narx</li>
+                                        <li>Katta hajm</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <strong>❌ Kamchiliklari:</strong>
+                                    <ul>
+                                        <li>Sekin ishlash</li>
+                                        <li>Shovqin chiqaradi</li>
+                                        <li>Mexanik qismlar</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="vs-separator">VS</div>
+
+                        <div class="storage-card ssd-card recommended-storage">
+                            <div class="recommended-badge">
+                                <i class="fas fa-crown"></i>
+                                TAVSIYA
+                            </div>
+                            <div class="storage-visual">
+                                <div class="ssd-animation">
+                                    <div class="ssd-chip"></div>
+                                    <div class="data-flow"></div>
+                                </div>
+                            </div>
+                            <h3>SSD (Solid State Drive)</h3>
+                            <div class="storage-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-bolt"></i>
+                                    <span>Tezlik: 500+ MB/s</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-dollar-sign"></i>
+                                    <span>Narx: Qimmatroq ($100-300)</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-database"></i>
+                                    <span>Hajm: 256GB-2TB</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>Umr: 5-10 yil</span>
+                                </div>
+                            </div>
+                            <div class="storage-pros-cons">
+                                <div class="pros">
+                                    <strong>✅ Afzalliklari:</strong>
+                                    <ul>
+                                        <li>Juda tez</li>
+                                        <li>Shovqinsiz</li>
+                                        <li>Energiya tejamkor</li>
+                                        <li>Ishonchli</li>
+                                    </ul>
+                                </div>
+                                <div class="cons">
+                                    <strong>❌ Kamchiliklari:</strong>
+                                    <ul>
+                                        <li>Qimmat</li>
+                                        <li>Kam hajm</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 12: SSD tavsiya qilinadi - nega? -->
+            <div class="slide" id="slide-12">
+                <div class="slide-content">
+                    <h2>SSD tavsiya qilinadi - nega?</h2>
+                    <div class="ssd-benefits">
+                        <div class="loading-comparison">
+                            <h3>Yuklanish tezligi taqqoslash</h3>
+                            <div class="loading-demo">
+                                <div class="loading-test hdd-test">
+                                    <h4>HDD bilan</h4>
+                                    <div class="loading-bar">
+                                        <div class="loading-progress hdd-progress" id="hddProgress"></div>
+                                    </div>
+                                    <div class="loading-time">⏱️ <span id="hddTime">0</span>s</div>
+                                    <div class="loading-items">
+                                        <div class="loading-item" data-delay="2000">Windows yuklash</div>
+                                        <div class="loading-item" data-delay="4000">Dasturlar ochish</div>
+                                        <div class="loading-item" data-delay="6000">Fayllarni ko'chirish</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="loading-test ssd-test">
+                                    <h4>SSD bilan</h4>
+                                    <div class="loading-bar">
+                                        <div class="loading-progress ssd-progress" id="ssdProgress"></div>
+                                    </div>
+                                    <div class="loading-time">⏱️ <span id="ssdTime">0</span>s</div>
+                                    <div class="loading-items">
+                                        <div class="loading-item" data-delay="500">Windows yuklash</div>
+                                        <div class="loading-item" data-delay="1000">Dasturlar ochish</div>
+                                        <div class="loading-item" data-delay="1500">Fayllarni ko'chirish</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="demo-button" id="startDemo">
+                                <i class="fas fa-play"></i>
+                                Demo boshlash
+                            </button>
+                        </div>
+                        
+                        <div class="ssd-advantages">
+                            <h3>SSD ning asosiy afzalliklari</h3>
+                            <div class="advantages-grid">
+                                <div class="advantage-card">
+                                    <div class="advantage-icon">
+                                        <i class="fas fa-rocket"></i>
+                                    </div>
+                                    <h4>10x tezroq</h4>
+                                    <p>HDD ga nisbatan 10 marta tez ma'lumot o'qiydi</p>
+                                </div>
+                                <div class="advantage-card">
+                                    <div class="advantage-icon">
+                                        <i class="fas fa-volume-mute"></i>
+                                    </div>
+                                    <h4>Shovqinsiz</h4>
+                                    <p>Mexanik qismlari yo'q, mutlaqo jim ishlaydi</p>
+                                </div>
+                                <div class="advantage-card">
+                                    <div class="advantage-icon">
+                                        <i class="fas fa-battery-three-quarters"></i>
+                                    </div>
+                                    <h4>Kam energiya</h4>
+                                    <p>Noutbuk batareyasini uzoqroq saqlaydi</p>
+                                </div>
+                                <div class="advantage-card">
+                                    <div class="advantage-icon">
+                                        <i class="fas fa-shield-alt"></i>
+                                    </div>
+                                    <h4>Ishonchli</h4>
+                                    <p>Zarbaga chidamli, ma'lumot yo'qolmaydi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 13: Ekran haqida -->
+            <div class="slide" id="slide-13">
+                <div class="slide-content">
+                    <h2>Ekran haqida</h2>
+                    <div class="screen-guide">
+                        <div class="screen-sizes">
+                            <h3>Ekran o'lchamlari</h3>
+                            <div class="size-comparison">
+                                <div class="screen-size size-13" data-size="13">
+                                    <div class="screen-visual">
+                                        <div class="screen-frame">
+                                            <div class="screen-content">13"</div>
+                                        </div>
+                                    </div>
+                                    <div class="size-info">
+                                        <h4>13 dyuym</h4>
+                                        <div class="size-features">
+                                            <span>✅ Portativ</span>
+                                            <span>✅ Yengil</span>
+                                            <span>❌ Kichik matn</span>
+                                        </div>
+                                        <p class="size-use">Sayohat va talabalar uchun</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="screen-size size-15 recommended-size" data-size="15">
+                                    <div class="recommended-badge">
+                                        <i class="fas fa-star"></i>
+                                        OPTIMAL
+                                    </div>
+                                    <div class="screen-visual">
+                                        <div class="screen-frame">
+                                            <div class="screen-content">15"</div>
+                                        </div>
+                                    </div>
+                                    <div class="size-info">
+                                        <h4>15 dyuym</h4>
+                                        <div class="size-features">
+                                            <span>✅ Muvozanatli</span>
+                                            <span>✅ Qulay o'qish</span>
+                                            <span>✅ Yaxshi narx</span>
+                                        </div>
+                                        <p class="size-use">Ko'pchilik uchun ideal</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="screen-size size-17" data-size="17">
+                                    <div class="screen-visual">
+                                        <div class="screen-frame">
+                                            <div class="screen-content">17"</div>
+                                        </div>
+                                    </div>
+                                    <div class="size-info">
+                                        <h4>17 dyuym</h4>
+                                        <div class="size-features">
+                                            <span>✅ Katta ekran</span>
+                                            <span>✅ Gaming uchun</span>
+                                            <span>❌ Og'ir</span>
+                                        </div>
+                                        <p class="size-use">Uy va ofis uchun</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="screen-specs">
+                            <h3>Ekran xususiyatlari</h3>
+                            <div class="specs-grid">
+                                <div class="spec-card resolution">
+                                    <div class="spec-icon">
+                                        <i class="fas fa-tv"></i>
+                                    </div>
+                                    <h4>Ruxsat (Resolution)</h4>
+                                    <div class="resolution-options">
+                                        <div class="resolution-option">
+                                            <strong>HD (1366x768)</strong>
+                                            <span>Asosiy, arzon</span>
+                                        </div>
+                                        <div class="resolution-option recommended">
+                                            <strong>Full HD (1920x1080)</strong>
+                                            <span>Tavsiya etiladi</span>
+                                        </div>
+                                        <div class="resolution-option">
+                                            <strong>4K (3840x2160)</strong>
+                                            <span>Juda yuqori, qimmat</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="spec-card panel-type">
+                                    <div class="spec-icon">
+                                        <i class="fas fa-palette"></i>
+                                    </div>
+                                    <h4>Panel turi</h4>
+                                    <div class="panel-options">
+                                        <div class="panel-option">
+                                            <strong>TN</strong>
+                                            <span>Arzon, tez</span>
+                                        </div>
+                                        <div class="panel-option recommended">
+                                            <strong>IPS</strong>
+                                            <span>Yaxshi ranglar</span>
+                                        </div>
+                                        <div class="panel-option">
+                                            <strong>OLED</strong>
+                                            <span>Eng yaxshi, qimmat</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 14: Qo'shimcha video karta nima va qachon kerak? -->
+            <div class="slide" id="slide-14">
+                <div class="slide-content">
+                    <h2>Qo'shimcha video karta nima va qachon kerak?</h2>
+                    <div class="gpu-explanation">
+                        <div class="gpu-types">
+                            <div class="gpu-type integrated">
+                                <div class="gpu-visual">
+                                    <div class="integrated-gpu">
+                                        <div class="cpu-part">CPU</div>
+                                        <div class="gpu-part">iGPU</div>
+                                    </div>
+                                </div>
+                                <h3>Ichki video karta (iGPU)</h3>
+                                <div class="gpu-specs">
+                                    <div class="spec">Protsessor ichida</div>
+                                    <div class="spec">Kam quvvat</div>
+                                    <div class="spec">Asosiy vazifalar</div>
+                                </div>
+                                <div class="suitable-for">
+                                    <strong>Mos keladi:</strong>
+                                    <ul>
+                                        <li>Internet brauzeri</li>
+                                        <li>Video tomosha</li>
+                                        <li>Ofis dasturlari</li>
+                                        <li>Yengil o'yinlar</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="gpu-type dedicated">
+                                <div class="gpu-visual">
+                                    <div class="dedicated-gpu">
+                                        <div class="gpu-chip">dGPU</div>
+                                        <div class="gpu-memory">VRAM</div>
+                                    </div>
+                                </div>
+                                <h3>Alohida video karta (dGPU)</h3>
+                                <div class="gpu-specs">
+                                    <div class="spec">Alohida chip</div>
+                                    <div class="spec">Yuqori quvvat</div>
+                                    <div class="spec">Professional vazifalar</div>
+                                </div>
+                                <div class="suitable-for">
+                                    <strong>Kerak bo'ladi:</strong>
+                                    <ul>
+                                        <li>Gaming (o'yinlar)</li>
+                                        <li>Video montaj</li>
+                                        <li>3D dizayn</li>
+                                        <li>AI/Machine Learning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="gpu-decision">
+                            <h3>Sizga qaysi biri kerak?</h3>
+                            <div class="decision-flowchart">
+                                <div class="decision-question">
+                                    <div class="question-box">
+                                        O'yin o'ynaysizmi yoki grafik ishlar qilasizmi?
+                                    </div>
+                                    <div class="decision-branches">
+                                        <div class="branch no-branch">
+                                            <div class="branch-answer">YO'Q</div>
+                                            <div class="branch-result integrated-result">
+                                                <i class="fas fa-check-circle"></i>
+                                                <strong>Ichki video karta yetarli</strong>
+                                                <p>Pul tejang, alohida video karta kerak emas</p>
+                                            </div>
+                                        </div>
+                                        <div class="branch yes-branch">
+                                            <div class="branch-answer">HA</div>
+                                            <div class="branch-result dedicated-result">
+                                                <i class="fas fa-gamepad"></i>
+                                                <strong>Alohida video karta oling</strong>
+                                                <p>NVIDIA GeForce yoki AMD Radeon</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="popular-gpus">
+                            <h3>Mashhur video kartalar</h3>
+                            <div class="gpu-cards">
+                                <div class="gpu-card budget">
+                                    <h4>Arzon</h4>
+                                    <div class="gpu-models">
+                                        <span>GTX 1650</span>
+                                        <span>RX 5500M</span>
+                                    </div>
+                                    <p>Yengil gaming</p>
+                                </div>
+                                <div class="gpu-card mid-range">
+                                    <h4>O'rtacha</h4>
+                                    <div class="gpu-models">
+                                        <span>RTX 3060</span>
+                                        <span>RX 6600M</span>
+                                    </div>
+                                    <p>1080p gaming</p>
+                                </div>
+                                <div class="gpu-card high-end">
+                                    <h4>Yuqori</h4>
+                                    <div class="gpu-models">
+                                        <span>RTX 4070</span>
+                                        <span>RX 7700M</span>
+                                    </div>
+                                    <p>4K gaming</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 15: Brendlar haqida -->
+            <div class="slide" id="slide-15">
+                <div class="slide-content">
+                    <h2>Brendlar haqida</h2>
+                    <div class="brands-overview">
+                        <div class="brands-grid">
+                            <div class="brand-card dell">
+                                <div class="brand-logo">
+                                    <span class="brand-name">DELL</span>
+                                </div>
+                                <div class="brand-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <span>4.5/5</span>
+                                </div>
+                                <div class="brand-features">
+                                    <div class="feature">✅ Ishonchli</div>
+                                    <div class="feature">✅ Yaxshi qo'llab-quvvatlash</div>
+                                    <div class="feature">✅ Business uchun</div>
+                                    <div class="feature">❌ Dizayn oddiy</div>
+                                </div>
+                                <div class="popular-series">
+                                    <strong>Mashhur seriyalar:</strong>
+                                    <span>XPS, Inspiron, Latitude</span>
+                                </div>
+                            </div>
+
+                            <div class="brand-card hp">
+                                <div class="brand-logo">
+                                    <span class="brand-name">HP</span>
+                                </div>
+                                <div class="brand-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span>4.0/5</span>
+                                </div>
+                                <div class="brand-features">
+                                    <div class="feature">✅ Keng tanlov</div>
+                                    <div class="feature">✅ Arzon narx</div>
+                                    <div class="feature">✅ Har xil kategoriya</div>
+                                    <div class="feature">❌ Sifat turlicha</div>
+                                </div>
+                                <div class="popular-series">
+                                    <strong>Mashhur seriyalar:</strong>
+                                    <span>Pavilion, Envy, EliteBook</span>
+                                </div>
+                            </div>
+
+                            <div class="brand-card apple recommended-brand">
+                                <div class="recommended-badge">
+                                    <i class="fas fa-crown"></i>
+                                    PREMIUM
+                                </div>
+                                <div class="brand-logo">
+                                    <i class="fab fa-apple"></i>
+                                    <span class="brand-name">Apple</span>
+                                </div>
+                                <div class="brand-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span>5.0/5</span>
+                                </div>
+                                <div class="brand-features">
+                                    <div class="feature">✅ Premium sifat</div>
+                                    <div class="feature">✅ Chiroyli dizayn</div>
+                                    <div class="feature">✅ Uzoq ishlaydi</div>
+                                    <div class="feature">❌ Juda qimmat</div>
+                                </div>
+                                <div class="popular-series">
+                                    <strong>Mashhur seriyalar:</strong>
+                                    <span>MacBook Air, MacBook Pro</span>
+                                </div>
+                            </div>
+
+                            <div class="brand-card lenovo">
+                                <div class="brand-logo">
+                                    <span class="brand-name">Lenovo</span>
+                                </div>
+                                <div class="brand-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span>4.2/5</span>
+                                </div>
+                                <div class="brand-features">
+                                    <div class="feature">✅ Yaxshi qiymat/narx</div>
+                                    <div class="feature">✅ ThinkPad seriyasi</div>
+                                    <div class="feature">✅ Business uchun</div>
+                                    <div class="feature">❌ Dizayn eski</div>
+                                </div>
+                                <div class="popular-series">
+                                    <strong>Mashhur seriyalar:</strong>
+                                    <span>ThinkPad, IdeaPad, Legion</span>
+                                </div>
+                            </div>
+
+                            <div class="brand-card asus">
+                                <div class="brand-logo">
+                                    <span class="brand-name">ASUS</span>
+                                </div>
+                                <div class="brand-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span>4.1/5</span>
+                                </div>
+                                <div class="brand-features">
+                                    <div class="feature">✅ Gaming uchun</div>
+                                    <div class="feature">✅ Innovatsion</div>
+                                    <div class="feature">✅ Kuchli model</div>
+                                    <div class="feature">❌ Qo'llab-quvvatlash</div>
+                                </div>
+                                <div class="popular-series">
+                                    <strong>Mashhur seriyalar:</strong>
+                                    <span>ROG, ZenBook, VivoBook</span>
+                                </div>
+                            </div>
+
+                            <div class="brand-card acer">
+                                <div class="brand-logo">
+                                    <span class="brand-name">Acer</span>
+                                </div>
+                                <div class="brand-rating">
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <span>3.5/5</span>
+                                </div>
+                                <div class="brand-features">
+                                    <div class="feature">✅ Eng arzon</div>
+                                    <div class="feature">✅ Talabalar uchun</div>
+                                    <div class="feature">✅ Keng tarqalgan</div>
+                                    <div class="feature">❌ Sifat past</div>
+                                </div>
+                                <div class="popular-series">
+                                    <strong>Mashhur seriyalar:</strong>
+                                    <span>Aspire, Swift, Predator</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="brand-recommendation">
+                            <h3>Qaysi brendni tanlash kerak?</h3>
+                            <div class="recommendation-by-budget">
+                                <div class="budget-category">
+                                    <h4>💰 Arzon ($300-600)</h4>
+                                    <p><strong>Tavsiya:</strong> HP Pavilion, Acer Aspire, Lenovo IdeaPad</p>
+                                </div>
+                                <div class="budget-category">
+                                    <h4>💎 O'rtacha ($600-1200)</h4>
+                                    <p><strong>Tavsiya:</strong> ASUS ZenBook, Dell Inspiron, HP Envy</p>
+                                </div>
+                                <div class="budget-category">
+                                    <h4>👑 Premium ($1200+)</h4>
+                                    <p><strong>Tavsiya:</strong> Apple MacBook, Dell XPS, Lenovo ThinkPad</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
